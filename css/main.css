@@ -1,0 +1,61 @@
+.nav-home{
+	    width: 40%;
+}
+
+img{
+	width: 100%
+}
+
+.position-bookmark{
+	left: 70px;
+}
+
+.position-label{
+    position: relative;
+    left: 77px;
+}
+
+.claire-text{
+	font-size: 17px;
+}
+
+.separador{
+	border-top: 7px solid black;
+}
+
+.pull-left ul{
+	list-style-type: none;
+}
+
+.home:hover{
+	background-color: #D5D5D5;
+}
+
+@media screen and (max-width: 991px){
+	.ml-100{
+		margin-left: 100px;
+	}
+	.clear-pull{
+		clear:both;
+	}
+}
+
+@media screen and (max-width: 1199px){
+	.position-label {
+    position: relative;
+    left: 35px;
+}
+	.position-bookmark {
+    left: 35px;
+}
+}
+
+@media screen and (max-width: 767px){
+	.position-label {
+    position: relative;
+    left: 81px;
+}
+	.position-bookmark {
+    left: 77px;
+}
+}
